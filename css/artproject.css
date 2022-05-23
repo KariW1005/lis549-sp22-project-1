@@ -63,7 +63,16 @@ nav a:hover {
     border-radius: 15px;
 }
 
-.card-group {
-    text-align: center;
-    
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.Jcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
 }
