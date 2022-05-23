@@ -63,16 +63,22 @@ nav a:hover {
     border-radius: 15px;
 }
 
+.p-text {
+    width: 70%;
+    float: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
 }
 
 .Jcontainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
 }
+
