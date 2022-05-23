@@ -52,9 +52,8 @@ nav a:hover {
 
 /* Artwork Rules*/
 #artwork img {
-        width: 500px;
-        height: 350px;
-        border-radius: 15px;
+        width: 16rem;
+        height: 12rem;
 }
 
 /* jewelrydesign Rules*/
@@ -62,4 +61,9 @@ nav a:hover {
     width: 300px;
     height: 300px;
     border-radius: 15px;
+}
+
+.card-group {
+    text-align: center;
+    
 }
