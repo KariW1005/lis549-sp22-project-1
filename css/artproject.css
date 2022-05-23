@@ -49,6 +49,10 @@ nav a:hover {
     font-size: 15px;
 }
 
+.artwork {
+    text-align: center;
+}
+
 /* Artwork Rules*/
 #artwork img {
         width: 16rem;
@@ -79,6 +83,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 footer {
