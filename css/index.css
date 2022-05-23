@@ -59,8 +59,8 @@ nav a:hover {
 }
 
 img {
-    width: 500px;
-    height: 350px;
+    width: 350px;
+    height: 200px;
     border-radius: 15px;
 }
 
@@ -83,6 +83,11 @@ main {
     }
     .project-text p {
         font-size: small;
+    }
+    imag {
+        width: 50%;
+        height: 20%;
+        border-radius: 15px;
     }
 }
 
