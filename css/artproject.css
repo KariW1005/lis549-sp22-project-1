@@ -47,7 +47,6 @@ nav a:hover {
 .typetext {
     color: black;
     font-size: 15px;
-    text-align: center;
 }
 
 /* Artwork Rules*/
@@ -80,6 +79,8 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
+footer {
+    text-align: center;
+}
