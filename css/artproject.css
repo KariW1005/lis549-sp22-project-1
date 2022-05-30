@@ -54,13 +54,9 @@ nav a:hover {
 }
 
 /* Artwork Rules*/
-#artwork img {
-        width: 16rem;
-        height: 12rem;
-}
 
 /* jewelrydesign Rules*/
-#jewelrydesign img {
+.jewelrydesign img {
     width: 300px;
     height: 300px;
     border-radius: 15px;
@@ -75,9 +71,15 @@ nav a:hover {
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+.containter > div {
+    flex-basis: 100%;
+    display: flex;
+}
+
 
 .Jcontainer {
     display: flex;
