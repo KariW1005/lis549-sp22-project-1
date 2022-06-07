@@ -13,12 +13,28 @@ header {
     text-align: center;
 }
 
+.kari {
+    background-position: center;
+}
+.kari-header {
+    width: 50%;
+    height: 70px;
+    padding-bottom: 0;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+}
+
 /* The Nav Bar rules */
 nav {
     width: 100%;
     padding: .5rem;
     padding-bottom: 0;
+    text-align: center;
 }
+
 
 nav ul {
     padding: 0;
@@ -31,16 +47,34 @@ nav li {
 }
 
 nav a {
-    color: grey;
+    color: #9685BA;
     text-decoration: none;
 }
 
 /* The Nav Bar hover rules */
-nav a:hover {
-    color: #F0F0F0;
-    border-bottom-color: #F0F0F0;
-    border-bottom: .8rem;
-    transition: .20s ease-out; 
+
+nav a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: lightblue;
+    transition: .20s ease-out;
+	}
+
+.himg {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* Main Rules */
+main {
+    padding-top: 2em;
+}
+
+.project-text {
+    width: 60%;
+    float: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Type Text Rules*/
@@ -54,6 +88,7 @@ nav a:hover {
 }
 
 /* Artwork Rules*/
+
 
 /* jewelrydesign Rules*/
 #jewelrydesign img {
@@ -90,4 +125,37 @@ nav a:hover {
 
 footer {
     text-align: center;
+}
+
+/* Responsive Rules */
+@media (min-width: 598px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    .project-text p {
+        font-size: small;
+    }
+    imag {
+        width: 50%;
+        height: 20%;
+        border-radius: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .project-text p {
+        font-size: medium;
+    }
+}
+
+@media (min-width: 992px) {
+    .project-text p {
+        font-size: larger;
+    }
+}
+
+@media (min-width: 1200px) {
+    .project-text p {
+        font-size: large;
+    }
 }
