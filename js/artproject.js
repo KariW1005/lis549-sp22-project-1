@@ -26,9 +26,9 @@ $('#btnBraceletNecklace').addClass('active');
 let button = $('.btn-group');
 
 button.on('click', function(event) { 
-    $('#BraceletNecklace, #EarringHairclips').toggle("fast"); 
+    $('#EarringHairclips, #BraceletNecklace').toggle("fast"); 
     $('#bntBraceletNecklace, #btnEarringHairclips').toggleClass('active'); 
-})
+});
 
 $('img').css({'cursor': 'pointer'});
 
