@@ -2,85 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Kari Wang">
     <meta name="description" content="Kari's portfolio page">
     <title>Portfolio | Kari Wang</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
 
 </head>
 <body>
-        <nav>
-          <ul>
-            <li><a href="index.html">PROJECTS</a></li>
-            <li><a href="artproject.html">Art & Design</a></li>
-            <li><a href="about.html">About</a></li>
-            <p><a href="#foodiefanatic">Foodie Fanatic APP</a></p>
-            <p><a href="#petsonthego">Pets on the Go</a></p>
-            <p><a href="#netflix">Netflix Party</a></p>
-            <p><a href="#zillow">Zillow Research Housing Prices Data</a></p>
-          </ul>
-        </nav>
-          <section class="kari">
-          <header class="kari-header">
-            <h1 class="kari-title">Hi, there!</h1>
-              <p class="kari-bio">I'm a UI/UX designer and artist with a passion for designing EGL style accessories.</p>
-            </header>
-          </section>
+  <section class="container">
+    <nav>
+      <ul>
+        <li><a href="index.html">PROJECTS</a></li>
+        <li><a href="artproject.html">Art & Design</a></li>
+        <li><a href="about.html">About</a></li>
 
+      </ul>
+    </nav>
+  </section>
 
-      <main>
-        <a name="foodiefanatic"></a>
-        <div class="firstcontainer">
-          <h2>SELECTED PROJECTS</h2> 
-                <img class="himg" src="img/Foodie-Fanatic.png" alt="UX and information architecture project: Foodie Fanatic">
-              <div class="project-text">
-                <h2>Foodie Fanatic</h2>
-                <h4>IOS App</h4>
-                <p>The Foodie Fanatic APP builds on the company's published RFP to design a new experience so that their customers can more easily identify where specific types 
-                      of content can be found, located and interacted with the website and other users in an intuitive way.</p>
-              </div>
+    <section class="text-container">
+      <h1>Hi, there!</h1>
+      <p>I'm a UI/UX designer and artist with a passion for designing EGL style accessories.</p>
+      <h2>SELECTED PROJECTS</h2> 
+    </section>
+
+        <!--Portfolio slideshow-->
+        <!--Code references: https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img class="himg" src="img/Foodie-Fanatic.png" alt="UX and information architecture project: Foodie Fanatic">
+            <div class="text">Foodie Fanatic</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img class="himg" src="img/Pets-on-the-Go.png" alt="UX and IX project: Pets on the Go">
+            <div class="text">Pets on the Go</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img class="himg" src="img/Netfix.png" alt="UX research Study: Netflix Party">
+            <div class="text">Netflix Party: UX Research Study</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img class="himg" src="img/Zillow.png" alt="Interactive data vis project: Zillow Research Housing Prices Data">
+            <div class="text">Zillow Research: Interactive Data Vis</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>    
         </div>
-
-        <a name="petsonthego"></a>
-          <div class="secondcontainer">
-                <img class="himg" src="img/Pets-on-the-Go.png" alt="UX and IX project: Pets on the Go">
-              <div class="project-text">
-                <h2>Pets on the Go</h2>
-                <h4>Website</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti quisquam vero repellendus dicta ad perspiciatis, quod corporis ut tempore totam excepturi earum ipsam distinctio cum necessitatibus. Error, vero incidunt.
-                Fuga, cupiditate deserunt beatae sed eligendi non alias dolores, amet omnis quaerat quisquam magni expedita? Quas dolorum harum cum, voluptatibus totam repudiandae reiciendis? Tempora nam aliquam laboriosam natus, dolorem minus.</p>
-              </div>
-          </div>
-
-          <a name="netflix"></a>
-          <div class="thirdcontainer">
-                <img class="himg" src="img/Netfix.png" alt="UX research Study: Netflix Party">
-              <div class="project-text">
-                <h2>Netflix Party</h2>
-                <h4>UX Research Study</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus suscipit perferendis atque est, quas esse facere harum rerum! Eveniet eum consectetur voluptatem, porro sed dicta reiciendis earum tempora odio perspiciatis.
-                Quam excepturi consequuntur, nesciunt debitis blanditiis labore quia minus doloremque delectus consequatur quae enim sit neque porro amet! Nisi ullam natus nostrum non sint officiis sed, nulla ipsum consectetur ipsam.</p>
-              </div>
-          </div>
-              
-          <a name="zillow"></a>
-          <div class="fourthcontainer">
-                <img class="himg" src="img/Zillow.png" alt="Interactive data vis project: Zillow Research Housing Prices Data">
-              <div class="project-text">
-                <h2>Zillow Research Housing Prices Data</h2>
-                <h4>Interactive Data Visualizaiton</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt odit dignissimos rerum blanditiis sint, mollitia totam aperiam voluptatem possimus reiciendis aliquam facere autem nemo ea fuga placeat magni magnam minima?
-                Quos eius facilis blanditiis similique quasi voluptatibus repudiandae voluptates reiciendis, non est odit omnis. Porro vel eum quaerat consectetur velit maiores eaque autem ad delectus quis earum, temporibus accusantium?</p>
-              </div>
-          </div>
-
-      </main>
+        <br>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
 
       <footer>
         &copy; Kari Wang 2022
       </footer>
+
+      <script src="js/slideshow.js"></script>
 </body>
 </html>
