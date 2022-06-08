@@ -188,7 +188,7 @@ nav a:hover, a:focus, a:active {
 }
 
 .kari-img {
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
@@ -200,6 +200,12 @@ nav a:hover, a:focus, a:active {
     .project-text p {
         font-size: small;
     }
+    .text-footer {
+        font-size: small;
+    }
+    main > p {
+        font-size: small;
+    } 
 }
 
 @media (min-width: 768px) {
@@ -210,12 +216,12 @@ nav a:hover, a:focus, a:active {
 
 @media (min-width: 992px) {
     .project-text p {
-        font-size: larger;
+        font-size: larg;
     }
 }
 
 @media (min-width: 1200px) {
     .project-text p {
-        font-size: large;
+        font-size: larger;
     }
 }
