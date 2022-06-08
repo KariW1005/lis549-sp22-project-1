@@ -18,6 +18,10 @@ header {
     line-height: normal;
 }
 
+h1 {
+    color: black;
+}
+
 /* The Nav Bar rules */
 nav {
     width: 100%;
@@ -171,6 +175,11 @@ nav a:hover, a:focus, a:active {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.kari-img {
+    width: 300px;
+    height: auto;
 }
 
 footer {
